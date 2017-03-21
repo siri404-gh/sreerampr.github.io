@@ -8,7 +8,6 @@ export const Header = () => {
         <div className="mdl-layout--large-screen-only mdl-layout__header-row">
           <h3>Sreeram Padmanabhan</h3>
         </div>
-        <div className="mdl-layout--large-screen-only mdl-layout__header-row"></div>
         <NavBar />
       </header>
   );
