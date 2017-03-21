@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Footer = () => (
         <footer className="mdl-mega-footer">
-          <div className="mdl-mega-footer--middle-section">
+          {/*<div className="mdl-mega-footer--middle-section">
             <div className="mdl-mega-footer--drop-down-section">
               <input className="mdl-mega-footer--heading-checkbox" type="checkbox" checked="true"/>
               <h1 className="mdl-mega-footer--heading">Features</h1>
@@ -42,7 +42,7 @@ export const Footer = () => (
                 <li><a href="#">Contact us</a></li>
               </ul>
             </div>
-          </div>
+          </div>*/}
           <div className="mdl-mega-footer--bottom-section">
             <div className="mdl-logo">
               More Information
