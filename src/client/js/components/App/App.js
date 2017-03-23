@@ -7,7 +7,9 @@ import Styles from './Styles.css';
 export const App = () => (
   <div>
     <Header />
+    <main className="mdl-layout__content">
     <Login />
+    </main>
     <Footer />
   </div>
 );

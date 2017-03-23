@@ -1,8 +1,9 @@
 import React, {Component, PropTypes} from 'react';
 import FacebookLogin from 'react-facebook-login';
+import GoogleLogin from 'react-google-login';
 
 const responseFacebook = (response) => {
-  console.log(response);
+  console.log('facebook', response);
 }
 const onSignIn = (googleUser) => {
   var profile = googleUser.getBasicProfile();
@@ -20,17 +21,23 @@ const signOut = () => {
 const componentClicked = () => {
 
 };
-
+const responseGoogle = (response) => {
+  console.log('google', response);
+};
 class Login extends Component {
   render() {
     return <section>
-      <div className="g-signin2" data-onsuccess="onSignIn"></div>
       <FacebookLogin
-          appId="597773280411232"
-          autoLoad={true}
-          fields="name,email,picture"
-          onClick={componentClicked}
-          callback={responseFacebook} />
+        appId="597773280411232"
+        autoLoad={true}
+        fields="name,email,picture"
+        onClick={componentClicked}
+        callback={responseFacebook} />
+      <GoogleLogin
+        clientId={'41677622953-s8jm5t8piglhud46no8u2b1d27sec9h8.apps.googleusercontent.com'}
+        onSuccess={responseGoogle}
+        onFailure={responseGoogle}
+        offline={false}/>
     </section>
   }
 }
