@@ -1,0 +1,27 @@
+html, body {
+    margin: 0px;
+}
+
+.border {
+    border: solid 1px #ddd;
+}
+
+.border-left {
+    border-left: solid 1px #ddd;
+}
+
+.border-top {
+    border-top: solid 1px #ddd;
+}
+
+.border-radius {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.box-shadow {
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
