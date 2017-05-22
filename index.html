@@ -10,9 +10,10 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel='icon' href='images/favicon.png' />
   <link rel='stylesheet' href='bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css' />
-  <link rel='stylesheet' href='./bootstrap3.css' />
+  <link rel='stylesheet' href='css/bootstrap3.css' />
+  <link rel='stylesheet' href='css/common.css' />
   <link rel='stylesheet' href='css/style.css' />
-  <link rel='stylesheet' href='css/style2.css' />
+  <link rel='stylesheet' href='css/media.css' />
   <script type='text/javascript' src='js/jquery.min.js'></script>
   <script type='text/javascript' src='js/tether.min.js'></script>
   <script type='text/javascript' src='bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js'></script>
@@ -23,7 +24,8 @@
   <header>
     <div class='container'>
       <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top my-nav">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+          aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#">Sreeram</a>
@@ -33,10 +35,10 @@
               <a class="nav-link link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link" href="#">About</a>
+              <a class="nav-link link" href="#">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link" href="#">Gallery</a>
+              <a class="nav-link link" href="#">About</a>
             </li>
           </ul>
           <span class="navbar-text">
@@ -54,51 +56,9 @@
       </div>
     </div>
   </section>
-  <section class='container' id='about'>
-    <div class='sec border border-radius box-shadow'>
-      <div class='col-left col-xs-12 col-md-8'>
-        <h1 class='heading'>About me</h1>
-        <div class='links a_link col-xs-12 col-sm-3 border border-radius'>
-          <img src='./images/trans.png' /><br>
-          <a>Chuck</a>
-        </div>
-        <div class='links b_link col-xs-12 col-sm-3 border border-radius'>
-          <img src='./images/trans.png' /><br>
-          <a>Red</a>
-        </div>
-        <div class='links c_link col-xs-12 col-sm-3 border border-radius'>
-          <img src='./images/trans.png' /><br>
-          <a>Leonard</a>
-        </div>
-        <div class='links d_link col-xs-12 col-sm-3 border border-radius'>
-          <img src='./images/trans.png' /><br>
-          <a>Bomb<span class='badge'>2</span></a>
-        </div>
-        <div class='links e_link col-xs-12 col-sm-3 border border-radius'>
-          <img src='./images/trans.png' /><br>
-          <a>Matilda</a>
-        </div>
-        <div class='links f_link col-xs-12 col-sm-3 border border-radius'>
-          <img src='./images/trans.png' /><br>
-          <a>Terence</a>
-        </div>
-      </div>
-      <div class='aside col-xs-12 col-md-4 sidebar border-left'>
-        <h2 class='side-heading'>My Hobbies:</h2>
-        <ol>
-          <li>I am thinking of learning how to <b>Cook</b>.</li>
-          <li>I ocassionally play <b>Badminton</b>.</li>
-          <li>I love taking care of <b>Ani and Aaru</b>.</li>
-          <li>I read some books recently <b>revathy nattamai</b> gopinath.</li>
-          <li>I write code sometimes.</li>
-          <ol>
-      </div>
-      <div class="clearfix"></div>
-    </div>
-  </section>
   <section class='section container' id='gallery'>
-            <h1 class='heading'>Gallery</h1>
-<div id="carouselExampleIndicators" class="carousel slide border border-radius box-shadow" data-ride="carousel">
+    <h1 class='heading'>Gallery</h1>
+    <div id="carousel" class="carousel slide border border-radius box-shadow" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -137,12 +97,54 @@
         </a>
     </div>
   </section>
+  <section class='container' id='about'>
+    <div class='sec border border-radius box-shadow'>
+      <div class='col-left col-xs-12 col-md-8'>
+        <h1 class='heading'>About me</h1>
+        <div class='links a_link col-xs-12 col-sm-4 border border-radius'>
+          <img src='./images/trans.png' /><br>
+          <a>Html</a>
+        </div>
+        <div class='links b_link col-xs-12 col-sm-4 border border-radius'>
+          <img src='./images/trans.png' /><br>
+          <a>Css</a>
+        </div>
+        <div class='links c_link col-xs-12 col-sm-4 border border-radius'>
+          <img src='./images/trans.png' /><br>
+          <a>Javascript</a>
+        </div>
+        <div class='links d_link col-xs-12 col-sm-4 border border-radius'>
+          <img src='./images/trans.png' /><br>
+          <a>Node JS<span class='badge'>2</span></a>
+        </div>
+        <div class='links e_link col-xs-12 col-sm-4 border border-radius'>
+          <img src='./images/trans.png' /><br>
+          <a>React JS</a>
+        </div>
+        <div class='links f_link col-xs-12 col-sm-4 border border-radius'>
+          <img src='./images/trans.png' /><br>
+          <a>Redux</a>
+        </div>
+      </div>
+      <div class='aside col-xs-12 col-md-4 sidebar border-left'>
+        <h2 class='side-heading'>My Hobbies:</h2>
+        <ol>
+          <li>I am thinking of learning how to <b>Cook</b>.</li>
+          <li>I ocassionally play <b>Badminton</b>.</li>
+          <li>I love taking care of <b>Ani and Aaru</b>.</li>
+          <li>I read some books recently <b>revathy nattamai</b> gopinath.</li>
+          <li>I write code sometimes.</li>
+          <ol>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
   <footer class='col-xs-12 border-top'>
-		<b>Copyright &copy; 2017 sreerampr</b>.
-		<p>Website Title</p> |
-		<a href='#' target='_blank'><img src='images/facebook.png'></img></a>
-		<a href='#' target='_blank'><img src='images/twitter.jpg'></img></a>
-	</footer>
+    <b>Copyright &copy; 2017 sreerampr</b>.
+    <p>Website Title</p> |
+    <a href='#' target='_blank'><img src='images/facebook.png'></img></a>
+    <a href='#' target='_blank'><img src='images/twitter.jpg'></img></a>
+  </footer>
 </body>
 
 </html>
