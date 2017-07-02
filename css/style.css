@@ -108,27 +108,27 @@ section {
 }
 
 .links_skills.g_link img {
-    background: url('../images/skills_icon.png') 0 0px no-repeat;
+    background: url('../images/skill_icon.png') 0 -384px no-repeat;
 }
 
 .links_skills.h_link img {
-    background: url('../images/skills_icon.png') 0 -64px no-repeat;
+    background: url('../images/skill_icon.png') 0 -448px no-repeat;
 }
 
 .links_skills.i_link img {
-    background: url('../images/skills_icon.png') 0 -128px no-repeat;
+    background: url('../images/skill_icon.png') 0 -512px no-repeat;
 }
 
 .links_skills.j_link img {
-    background: url('../images/skills_icon.png') 0 -192px no-repeat;
+    background: url('../images/skill_icon.png') 0 -576px no-repeat;
 }
 
 .links_skills.k_link img {
-    background: url('../images/skills_icon.png') 0 -256px no-repeat;
+    background: url('../images/skill_icon.png') 0 -640px no-repeat;
 }
 
 .links_skills.l_link img {
-    background: url('../images/skills_icon.png') 0 -320px no-repeat;
+    background: url('../images/skill_icon.png') 0 -704px no-repeat;
 }
 
 .links_travel.a_link img {
