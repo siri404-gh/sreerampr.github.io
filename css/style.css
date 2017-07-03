@@ -1,5 +1,5 @@
 html, body {
-    font-family: 'Source Sans Pro', 'Raleway', 'Open Sans', 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather Sans', 'Raleway', 'Open Sans', 'Merriweather Sans', sans-serif;
     font-weight: 300;
     background-color: #fbfbfb;
 }
@@ -7,6 +7,10 @@ html, body {
 h1 {
   font-size: 25px !important;
   margin-top: 10px !important;
+}
+
+b {
+  font-weight: 600;
 }
 
 .my-nav a.navbar-brand {

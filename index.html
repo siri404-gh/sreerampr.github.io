@@ -4,10 +4,10 @@
 <head>
   <title>Sree..</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,300' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel='icon' href='images/favicon.png' />
   <link rel='stylesheet' href='bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css' />
   <link rel='stylesheet' href='css/bootstrap3.css' />
@@ -177,7 +177,7 @@
     <div class='sec border border-radius box-shadow'>
       <div class='col-left col-xs-12 col-md-8'>
         <h1 class='heading'>My job takes me places. And this is my job.</h1>
-        <div class='links_skills a_link col-xs-12 col-sm-5 col-md-2 col-lg-3 border border-radius'>
+        <div class='links_skills a_link col-xs-12 col-sm-5 col-md-2 col-lg-3 border border-radius' data-toggle="modal" data-target="#myModal">
           <img src='./images/trans.png' /><br>
           <a>Html</a>
         </div>
@@ -232,12 +232,13 @@
         <ol>
           <li>Well versed with <b>ES-6</b>. </li>
           <li>Have worked on <b>Accessibility</b>.</li>
-          <li><b>Algorithms</b> and <b>DataStructures</b>
           <li>Bit of a <b>FullStack</b> developer ocassionaly looking into <b>JSP, Java</b> and stuff.</li>
           <li>I have been a trainer a few times. Trained a group of people a couple of times.</li>
           <li>Have worked with developers from companies like <b>Apple, Nokia</b>.</li>
-          <li>Some of my projects exhibit <b>CI/CD</b>. All I do is write code and push to <b>GitHub</b>. <b>Travis</b> runs the build, <b>Heroku</b> does the deployment.</li>
+          <li>Some of my projects exhibit <b>CI/CD</b>. All I do is write code and push to <b>GitHub</b>. <b>Travis</b> runs
+            the build, <b>Heroku</b> does the deployment.</li>
           <li>Find my github profile at <a href='https://github.com/sreerampr' target='_blank'>https://github.com/sreerampr</a></li>
+          <li>Click on the boxes in the left to see a working demo.</li>
           <ol>
       </div>
       <div class="clearfix"></div>
@@ -322,6 +323,37 @@
     <a href='https://facebook.com/sreeram.raji' target='_blank'><img src='images/facebook.png'></img></a>
     <a href='https://instagram.com/sreerampr' target='_blank'><img src='images/instagram.jpg'></img></a>
   </footer>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+          <div class="card text-center card-inverse card-primary mb-3 text-center">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-block">
+              <h4 class="card-title">Special title treatment</h4>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+              2 days ago
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
