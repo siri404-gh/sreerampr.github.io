@@ -1,7 +1,7 @@
 html, body {
     font-family: 'Merriweather Sans', 'Raleway', 'Open Sans', 'Merriweather Sans', sans-serif;
     font-weight: 300;
-    background-color: #fbfbfb;
+    background-color: #fff;
 }
 
 h1 {
@@ -251,6 +251,10 @@ footer p {
 
 footer img {
   width: 15px;
+}
+
+footer a.bs img {
+  width: 80px;
 }
 
 #carousel {
