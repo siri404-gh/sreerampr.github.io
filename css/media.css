@@ -64,6 +64,9 @@
   .carousel .carousel-inner .img{
       margin-left: 0;
   }
+  .links_skills {
+    margin-left: 20px;
+  }
 }
 
 @media (min-width: 1025px) {
