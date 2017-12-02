@@ -265,3 +265,8 @@ footer a.bs img {
 .carousel .carousel-inner img {
   margin: auto;
 }
+.googleAd {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
