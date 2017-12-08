@@ -269,3 +269,12 @@ footer a.bs img {
     margin: auto;
     margin-top: 30px;
 }
+
+section#aboutme {
+    background: url('../images/gallery.jpg');
+    background-blend-mode: luminosity
+}
+
+section#aboutme.container {
+    width: 100%;
+}
