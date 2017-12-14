@@ -271,8 +271,7 @@ footer a.bs img {
 }
 
 section#aboutme {
-    background: url('../images/gallery.jpg');
-    background-blend-mode: luminosity
+    background-image: url('../images/gallery.jpg');
 }
 
 section#aboutme.container {
