@@ -54,6 +54,8 @@ section {
 
 .hero-text p {
     font-size: 15px;
+    font-style: normal;
+    color: black;
 }
 
 .sec {

@@ -91,6 +91,7 @@
 @media screen and (max-width: 767px) {
     .sidebar {
         border-top: solid 1px #ddd;
+        padding-left: 0px;
     }
     .border-right {
         border-right: 0px !important;
