@@ -267,6 +267,10 @@ footer a.bs img {
 .carousel .carousel-inner img {
   margin: auto;
 }
+.googleAd {
+    margin: auto;
+    margin-top: 30px;
+}
 
 section#aboutme {
     background-image: url('../images/gallery.jpg');
