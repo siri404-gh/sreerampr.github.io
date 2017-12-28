@@ -100,7 +100,7 @@
     .heading {
       font-size: 20px !important;
     }
-    #gallery {
+    #gallery, #aboutme {
       padding: 0;
     }
 }
