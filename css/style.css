@@ -30,6 +30,7 @@ b {
 section {
     min-height: 100vh;
     padding-top: 57px;
+    padding-bottom: 25px;
     border-bottom: dashed 1px #ccc;
 }
 
