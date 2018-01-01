@@ -104,6 +104,7 @@
       padding: 0;
     }
     #aboutme {
-      padding-bottom: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 }
