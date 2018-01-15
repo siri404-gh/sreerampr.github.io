@@ -100,10 +100,10 @@
     .heading {
       font-size: 20px !important;
     }
-    #gallery, #aboutme {
+    #gallery, #works, #aboutme {
       padding: 0;
     }
-    #aboutme {
+    #works {
       padding-top: 10px;
       padding-bottom: 10px;
     }
