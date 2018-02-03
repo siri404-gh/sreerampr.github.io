@@ -142,63 +142,83 @@ section {
 }
 
 .links_travel.b_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -64px no-repeat;
 }
 
 .links_travel.c_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -128px no-repeat;
 }
 
 .links_travel.d_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -192px no-repeat;
 }
 
 .links_travel.e_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -256px no-repeat;
 }
 
 .links_travel.f_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -320px no-repeat;
 }
 
 .links_travel.g_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -384px no-repeat;
 }
 
 .links_travel.h_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -448px no-repeat;
 }
 
 .links_travel.i_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -512px no-repeat;
 }
 
 .links_travel.j_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -576px no-repeat;
 }
 
 .links_travel.k_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -640px no-repeat;
 }
 
 .links_travel.l_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -704px no-repeat;
 }
 
 .links_travel.m_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -768px no-repeat;
 }
 
 .links_travel.n_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -832px no-repeat;
 }
 
 .links_travel.o_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -896px no-repeat;
 }
 
 .links_travel.p_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+  background: url('../images/travel_icon.png') 0 -960px no-repeat;
+}
+
+.links_travel.q_link img {
+  background: url('../images/travel_icon.png') 0 -1024px no-repeat;
+}
+
+.links_travel.r_link img {
+  background: url('../images/travel_icon.png') 0 -1088px no-repeat;
+}
+
+.links_travel.s_link img {
+  background: url('../images/travel_icon.png') 0 -1152px no-repeat;
+}
+
+.links_travel.t_link img {
+  background: url('../images/travel_icon.png') 0 -1216px no-repeat;
+}
+
+.links_travel.u_link img {
+  background: url('../images/travel_icon.png') 0 -1280px no-repeat;
 }
 
 .sidebar {
