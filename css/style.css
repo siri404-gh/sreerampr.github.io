@@ -141,6 +141,10 @@ section {
   background: url('../images/travel_icon.png') 0 0px no-repeat;
 }
 
+.links_travel img {
+    border-radius: 50%;
+}
+
 .links_travel.b_link img {
   background: url('../images/travel_icon.png') 0 -64px no-repeat;
 }
