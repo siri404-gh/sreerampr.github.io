@@ -1,16 +1,17 @@
-html, body {
+html,
+body {
     font-family: 'Merriweather Sans', 'Raleway', 'Open Sans', 'Merriweather Sans', sans-serif;
     font-weight: 300;
     background-color: #fff;
 }
 
 h1 {
-  font-size: 25px !important;
-  margin-top: 10px !important;
+    font-size: 25px !important;
+    margin-top: 10px !important;
 }
 
 b {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .my-nav a.navbar-brand {
@@ -34,7 +35,7 @@ section {
 }
 
 #home {
-  height: 100vh;
+    height: 100vh;
 }
 
 .hero {
@@ -64,7 +65,9 @@ section {
     background: #fbfbfb;
 }
 
-.links, .links_skills, .links_travel {
+.links,
+.links_skills,
+.links_travel {
     margin: 20px 20px 0 auto;
     cursor: pointer;
     font-size: 14px;
@@ -75,18 +78,24 @@ section {
     min-width: 100px;
 }
 
-.links a, .links_skills a, .links_travel a {
+.links a,
+.links_skills a,
+.links_travel a {
     color: black;
     text-decoration: none;
 }
 
-.links:hover, .links_skills:hover, .links_travel:hover  {
+.links:hover,
+.links_skills:hover,
+.links_travel:hover {
     border: solid 1px #333;
 }
 
-.links img, .links_skills img, .links_travel img {
-  height: 64px;
-  width: 64px;
+.links img,
+.links_skills img,
+.links_travel img {
+    height: 64px;
+    width: 64px;
 }
 
 .links_skills.a_link img {
@@ -138,7 +147,7 @@ section {
 }
 
 .links_travel.a_link img {
-  background: url('../images/travel_icon.png') 0 0px no-repeat;
+    background: url('../images/travel_icon.png') 0 0px no-repeat;
 }
 
 .links_travel img {
@@ -146,83 +155,83 @@ section {
 }
 
 .links_travel.b_link img {
-  background: url('../images/travel_icon.png') 0 -64px no-repeat;
+    background: url('../images/travel_icon.png') 0 -64px no-repeat;
 }
 
 .links_travel.c_link img {
-  background: url('../images/travel_icon.png') 0 -128px no-repeat;
+    background: url('../images/travel_icon.png') 0 -128px no-repeat;
 }
 
 .links_travel.d_link img {
-  background: url('../images/travel_icon.png') 0 -192px no-repeat;
+    background: url('../images/travel_icon.png') 0 -192px no-repeat;
 }
 
 .links_travel.e_link img {
-  background: url('../images/travel_icon.png') 0 -256px no-repeat;
+    background: url('../images/travel_icon.png') 0 -256px no-repeat;
 }
 
 .links_travel.f_link img {
-  background: url('../images/travel_icon.png') 0 -320px no-repeat;
+    background: url('../images/travel_icon.png') 0 -320px no-repeat;
 }
 
 .links_travel.g_link img {
-  background: url('../images/travel_icon.png') 0 -384px no-repeat;
+    background: url('../images/travel_icon.png') 0 -384px no-repeat;
 }
 
 .links_travel.h_link img {
-  background: url('../images/travel_icon.png') 0 -448px no-repeat;
+    background: url('../images/travel_icon.png') 0 -448px no-repeat;
 }
 
 .links_travel.i_link img {
-  background: url('../images/travel_icon.png') 0 -512px no-repeat;
+    background: url('../images/travel_icon.png') 0 -512px no-repeat;
 }
 
 .links_travel.j_link img {
-  background: url('../images/travel_icon.png') 0 -576px no-repeat;
+    background: url('../images/travel_icon.png') 0 -576px no-repeat;
 }
 
 .links_travel.k_link img {
-  background: url('../images/travel_icon.png') 0 -640px no-repeat;
+    background: url('../images/travel_icon.png') 0 -640px no-repeat;
 }
 
 .links_travel.l_link img {
-  background: url('../images/travel_icon.png') 0 -704px no-repeat;
+    background: url('../images/travel_icon.png') 0 -704px no-repeat;
 }
 
 .links_travel.m_link img {
-  background: url('../images/travel_icon.png') 0 -768px no-repeat;
+    background: url('../images/travel_icon.png') 0 -768px no-repeat;
 }
 
 .links_travel.n_link img {
-  background: url('../images/travel_icon.png') 0 -832px no-repeat;
+    background: url('../images/travel_icon.png') 0 -832px no-repeat;
 }
 
 .links_travel.o_link img {
-  background: url('../images/travel_icon.png') 0 -896px no-repeat;
+    background: url('../images/travel_icon.png') 0 -896px no-repeat;
 }
 
 .links_travel.p_link img {
-  background: url('../images/travel_icon.png') 0 -960px no-repeat;
+    background: url('../images/travel_icon.png') 0 -960px no-repeat;
 }
 
 .links_travel.q_link img {
-  background: url('../images/travel_icon.png') 0 -1024px no-repeat;
+    background: url('../images/travel_icon.png') 0 -1024px no-repeat;
 }
 
 .links_travel.r_link img {
-  background: url('../images/travel_icon.png') 0 -1088px no-repeat;
+    background: url('../images/travel_icon.png') 0 -1088px no-repeat;
 }
 
 .links_travel.s_link img {
-  background: url('../images/travel_icon.png') 0 -1152px no-repeat;
+    background: url('../images/travel_icon.png') 0 -1152px no-repeat;
 }
 
 .links_travel.t_link img {
-  background: url('../images/travel_icon.png') 0 -1216px no-repeat;
+    background: url('../images/travel_icon.png') 0 -1216px no-repeat;
 }
 
 .links_travel.u_link img {
-  background: url('../images/travel_icon.png') 0 -1280px no-repeat;
+    background: url('../images/travel_icon.png') 0 -1280px no-repeat;
 }
 
 .sidebar {
@@ -256,47 +265,52 @@ section {
 }
 
 .note {
-  font-size: 18px !important;
-  text-align: center;
+    font-size: 18px !important;
+    text-align: center;
 }
 
-footer{
-  background: white;
-  position: fixed !important;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  padding: 5px;
-  font-size: 10px;
-  text-align: right;
-  color: black;
+footer {
+    background: white;
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 5px;
+    font-size: 10px;
+    text-align: right;
+    color: black;
 }
 
 footer p {
-  display: inline;
+    display: inline;
 }
 
 footer img {
-  height: 18px;
+    height: 18px;
 }
 
 footer a.bs img {
-  width: 80px;
+    width: 80px;
 }
 
 #carousel {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .carousel .carousel-inner img {
-  margin: auto;
+    margin: auto;
 }
+
 .googleAd {
     margin: 30px auto;
 }
 
 section#works {
-    background-image: url('../images/gallery.jpg');
+    background-image: url('../images/works_bg.png');
+}
+
+section#travelogue {
+    background-image: url('../images/travelogue_bg.jpg');
 }
 
 section#aboutme.container {
