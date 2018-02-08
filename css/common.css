@@ -7,7 +7,11 @@ html, body {
 }
 
 .border-right {
-    border-right: solid 1px #ddd;
+    border: solid 1px #ddd;
+}
+
+.border-left {
+    border-left: solid 1px #ddd;
 }
 
 .border-top {
