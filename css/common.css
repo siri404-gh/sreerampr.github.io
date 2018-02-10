@@ -7,7 +7,7 @@ html, body {
 }
 
 .border-right {
-    border: solid 1px #ddd;
+    border-right: solid 1px #ddd;
 }
 
 .border-left {
