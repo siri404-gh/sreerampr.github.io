@@ -316,3 +316,7 @@ section#travelogue {
 section#aboutme.container {
     width: 100%;
 }
+
+section#gallery {
+    background-image: url('../images/mip-night-tube-hp.jpg');
+}
