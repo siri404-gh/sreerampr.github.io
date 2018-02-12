@@ -319,5 +319,5 @@ section#aboutme.container {
 
 section#gallery {
     background-image: url('../images/mip-night-tube-hp.jpg');
-    background-size: 100vh
+    background-size: 100%
 }
