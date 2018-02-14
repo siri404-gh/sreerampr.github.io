@@ -318,6 +318,12 @@ section#aboutme.container {
 }
 
 section#gallery {
-    background-image: url('../images/mip-night-tube-hp.jpg');
-    background-size: 100%
+    background-image: url('../images/background1.jpg'), url('../images/background2.jpg');
+    background-color: #090900;
+    background-position: bottom left, top right;
+    background-repeat: no-repeat;
+}
+
+section#gallery .heading {
+    color: white;
 }
