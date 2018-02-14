@@ -31,7 +31,7 @@ b {
 section {
     min-height: 100vh;
     padding-top: 57px;
-    border-bottom: dashed 1px #ccc;
+    border-bottom: dashed 0px #ccc;
 }
 
 #home {
@@ -271,7 +271,6 @@ section {
 
 footer {
     background: white;
-    position: fixed !important;
     bottom: 0;
     left: 0;
     margin: auto;
